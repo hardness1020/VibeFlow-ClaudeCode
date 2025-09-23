@@ -12,14 +12,14 @@ This repository implements a **10-stage docs-first development pipeline** with m
 
 ### Required Documentation Pipeline
 
-1. **Stage A (Initiate)**: Create PRD (`docs/prds/prd-YYYYMMDD.md`)
-2. **Stage B (Specify)**: Create Tech Specs (`docs/specs/spec-YYYYMMDD-<spec>.md`)
-3. **Stage C (Decide)**: Create ADRs (`docs/adrs/adr-YYYYMMDD-<slug>.md`)
-4. **Stage D (Plan)**: Create Feature specs (`docs/features/ft-<ID>-<slug>.md`)
+1. **Stage A (Initiate)**: Follow the rule (`rule/01-prd.md`) and Create PRD (`docs/prds/prd-YYYYMMDD.md`)
+2. **Stage B (Specify)**: Follow the rule (`rule/02-tech_spec.md`) and Create Tech Specs (`docs/specs/spec-YYYYMMDD-<spec>.md`)
+3. **Stage C (Decide)**: Follow the rule (`rule/03-adr.md`) and Create ADRs (`docs/adrs/adr-YYYYMMDD-<slug>.md`)
+4. **Stage D (Plan)**: Follow the rule (`rule/04-feature.md`) and Create Feature specs (`docs/features/ft-<ID>-<slug>.md`)
 5. **Stage E (Implement)**: Implement with proper branching
 6. **Stage F (Validate)**: Add tests and evaluations
 7. **Stage G (Review)**: Create PR with all doc links
-8. **Stage H (Release Prep)**: Create OP-NOTE (`docs/op-notes/op-<ID>-<slug>.md`)
+8. **Stage H (Release Prep)**: Follow the rule (`rule/05-op_note.md`) and Create OP-NOTE (`docs/op-notes/op-<ID>-<slug>.md`)
 9. **Stage I (Deploy)**: Follow OP-NOTE procedures
 10. **Stage J (Close Loop)**: Update indexes and close issues
 
